@@ -1,0 +1,515 @@
+{
+  "Navbar": {
+    "logo": "MiraeTechVision",
+    "ceoIntroduction": "CEO Introduction",
+    "overview": "Business Overview",
+    "products": "Products",
+    "services": "Services",
+    "investorRelations": "Investor Relations",
+    "connectWithUs": "Contact Us",
+    "support": "Support",
+    "login": "Login"
+  },
+  "Index": {
+    "ceo": {
+      "badge": "Leadership",
+      "title": "CEO Introduction",
+      "description": "Driving innovation in state-of-the-art anti-drone solutions and RF technology.",
+      "milestones": [
+        "LG Innotek R&D Center: Developed power amplifiers for mobile phones and localized components for LG Electronics devices",
+        "Agilent Technologies: Provided technical support for measurement instruments, CDMA/GSM/WCDMA terminal and repeater design/measurement, and ADS SW (RF circuit & communication system design) consulting",
+        "Vistacom Co., Ltd.: General Manager of the Anti-Drone Business Division",
+        "Argos Co., Ltd.: Managing Director of Sales for Public Institutions and Defense Sector in the Anti-Drone Business Division",
+        "Korea Electric Power Corporation (KEPCO): Head of the Anti-Drone System Construction Project at Sin-Anseong Substation",
+        "Korea National Oil Corporation: Head of Anti-Drone System (GNSS Spoofer) Construction Projects at Yongin and Yeosu branches",
+        "Unit 00: Head of the Anti-Drone System (GNSS Spoofer) Construction Project",
+        "Unit AA: Head of the Mobile Anti-Drone System Construction Project"
+      ]
+    },
+    "inquiry": {
+      "badge": "Support Center",
+      "title": "Technical Inquiry",
+      "description": "Common questions regarding our CUxS integration and defense protocols.",
+      "questions": {
+        "q1": "What is the maximum detection range of the system?",
+        "a1": "Our integrated RADAR and RF scanning suite can detect standard commercial drones at a range of up to 3km with an RCS of 0.01m².",
+        "q2": "Does GNSS Spoofing cause interference with civil aviation?",
+        "a2": "No. Our directional spoofing technology is precision-targeted to the threat's coordinates, minimizing signal leakage to authorized aircraft.",
+        "q3": "Can the system operate in extreme weather conditions?",
+        "a3": "Yes, the hardware is IP67 rated and tested for operational stability in temperatures ranging from -20°C to +60°C.",
+        "q4": "How does the system handle 'Dark Drones' (Radio Silent)?",
+        "a4": "Drones without RF emissions are identified using our EO/IR thermal imaging cameras and AI-driven optical tracking software."
+      }
+    },
+    "stats": {
+      "trustedBy": "Trusted by 34+ government agencies worldwide.",
+      "unitsSold": "Units Sold",
+      "inCountryPartners": "In-Country Partners",
+      "yearsOfInnovation": "Years of Innovation",
+      "heroMessage": "Intuitive control in even the most complex environments."
+    },
+    "overview": {
+      "badge": "Business Introduction",
+      "title": "Integrated Anti-Drone Defense System",
+      "description": "Mirae Tech Vision delivers sophisticated, specialized defense systems to counter the rapidly evolving landscape of advanced drone and UAV threats.",
+      "tech": {
+        "platform": "The Mirae Tech Vision Anti-Drone Platform provides a unified Command & Control (SW) system, integrating RF Scanners, RADAR, EO/IR Cameras, GNSS Spoofers, RF Jammers, and Communications Spoofing technology.",
+        "stage1": {
+          "title": "Drone Detection",
+          "details": "Long-range detection (>5km, RCS 0.03m²) via RADAR & RF Scanners."
+        },
+        "stage2": {
+          "title": "Drone Tracking & Monitoring",
+"details": "Ku band 3D 7Km tracking Radar Tracking and monitoring with RF Scanner"
+        },
+        "stage3": {
+        "title": "Drone Identification",
+"details": "EOIR to Identify drone images and models RF Scanner to identify the drone model"
+        },
+        "stage4": {
+         "title": "Drone Neutralization",
+"details": "Satellite Signal Spoofer on non-commercial drone RF Jammer on commercial drone. Communication Signal Spoofer on commercial drone Hardkill(Interception drones)"
+        }
+      }
+    },
+    "heroVideo": {
+      "title": "Counter-Drone, Simplified",
+      "content": "Easy to train, simple to use, quick to deploy, multi-mission CUxS solutions."
+    }
+  },
+  "Auth": {
+    "login": "Login"
+  },
+  "Products": {
+    "header": "Anti Drone Solutions",
+      "header2": "Drone Solutions ",
+    "description": "Explore our comprehensive range of cutting-edge anti-drone products, designed to provide robust defense against evolving aerial threats. ",
+    "detection-identification-equipment": {
+      "title": "Detection & Identification",
+      "main_title": "Multi-Layer Surveillance Ecosystem",
+      "component_list": [
+        {
+          "id": "eoir",
+          "title": "EO/IR",
+          "image": "/product/eo.webp",
+          "details": "Deep Learning identification algorithm for flight vehicles. Automatic video tracking. Path prediction function. EO/IR camera for drone video identification and tracking – 2km identification range. Automatic video tracking AI algorithm."
+        },
+        {
+          "id": "sdr",
+          "title": "Commercial Drone Detection Equipment",
+          "image": "/product/sdr.webp",
+          "details": "Detection of Commercial Drones in the 400GHz – 6GHz Frequency Band. Detection of New Drones by Extending Software with New Frequency Additions. Minimum of one Library Update per Year (eg: DJI Ocusync 4 Encrypted Drone Detection, Autel Skylink 3.0 Detection). Decode Encrypted New Drone Protocols using Self-Developed Software (for DJI and other encrypted drones). Detection range 4km"
+        },
+        {
+          "id": "sdr",
+          "title": "Commercial Drone Detection Equipment",
+          "image": "/product/sdr2.webp",
+          "details": "Detection of Commercial Drones in the 400GHz – 6GHz Frequency Band. Detection of New Drones by Extending Software with New Frequency Additions. Minimum of one Library Update per Year (eg: DJI Ocusync 4 Encrypted Drone Detection, Autel Skylink 3.0 Detection). Decode Encrypted New Drone Protocols using Self-Developed Software (for DJI and other encrypted drones).Detection range 4km"
+        },
+        {
+          "id": "radar",
+          "title": "Radar",
+          "image": "/product/radar.webp",
+          "details": "One radar for 360° omni-directional detection of small drones (RCS: 0.03㎡) Detection/Identification: 5 km and Tracking: 7 km.Pulse Doppler Rotary X-band Detection Radar, Ku-band Tracking Radar. Automatic Identification of Detection Objects: Drone / Bird / Vehicle / Ship"
+        }
+       
+      ]
+    },
+    "neutralization-equipment": {
+      "title": "Neutralization System",
+      "main_title": "Active Defense & Countermeasures",
+      "component_list": [
+          {
+          "id": "satelite-signal-spoofer",
+          "title": "Satellite signal spoofer",
+          "image": "/product/signal.webp",
+          "details": "The Drone Neutralization Equipment - GNSS Satellite Signal Spoofer is a specialized defense system designed to protect critical infrastructure from unauthorized UAV/drone intrusions, whether operating in autonomous or manual satellite navigation (GNSS) flight modes. This low-power spoofing system effectively targets GNSS L1/L2 signals (GPS, GLONASS, Beidou, and Galileo), with optional expansion to GNSS L5. With a transmit power of 5W, it provides a protection radius of over 3,000 meters using advanced satellite signal spoofing technology. The system offers 360-degree omnidirectional coverage and is capable of defending against multiple drones simultaneously, 24 hours a day. It also features real-time drone intrusion detection, defense, and expulsion capabilities, including anti-jamming functionality"
+        },
+               {
+          "id": "rf-jammer",
+          "image": "/product/rf.png",
+          "layout": "table",
+          "title": "Drone Neutralization Equipment - RF Jammer",
+        
+  "tableData": [
+    {
+      "feature": "Frequency Band",
+      "value": "433MHz, 900MHz, GNSS L1/L2, 2.4GHz, 5.8GHz (Additional bands available)"
+    },
+    {
+      "feature": "Blocking Distance",
+      "value": "3km (Expandable)"
+    },
+    {
+      "feature": "Radiation Power",
+      "value": "Under 300W (based on full band)"
+    },
+    {
+      "feature": "Jamming Frequency Range per Band",
+      "value": "1MHz ~ 200MHz (Variable)"
+    },
+    {
+      "feature": "Antenna Directivity",
+      "value": "Directional (60-degree beamwidth)"
+    }
+  ]
+}
+        
+      ]
+    },
+    "spoofing-equipment": {
+      "title": "Spoofing Equipment",
+      "main_title": "Advanced Cyber Takeover & Directional Control",
+      "component_list": [
+        {
+          "id": "precision-gnss-spoofer",
+          "title": "Precision-Guided GNSS Spoofing System",
+          "image": "/product/eleven.webp",
+         "details": "Precision directional induction and defense against commercial and non-commercial intruding drones. Effective neutralization of anti-jamming drones. Precision guidance radius: 150m – 3km. Advanced drone defense system with zero collateral damage. Radar-integrated precision drone induction system."
+},
+         {
+          "id": "eoir",
+          "title": "Communication Spoofing System",
+          "image": "/product/communication.png",
+          "details": "Detection, tracking, identification, and neutralization of commercial drones via radio frequencies. Perimeter access control to fend off unauthorized drones within the defense zone. Forced guided landing to designated locations via pre-configured safe paths. RF scanner-integrated drone defense system. Forced landing distance 2km"
+}
+      ]
+    },
+      "agricultural-drone": {
+      "title": "Agricultural Drone " ,
+      "main_title": "Active Defense & Countermeasures",
+      "component_list": [
+        {
+          "id": "avd-e616",
+          "title": "Agricultural Drone AVD-E616",
+          "image": "/product/e616.webp",
+          "layout": "table",
+          "tableData": [
+            {
+              "feature": "Unfold size",
+              "value": "1690 x 1470 x 600mm"
+            },
+            {
+              "feature": "Folding size",
+              "value": "850 x 960 x 600mm"
+            },
+            {
+              "feature": "Texture of material",
+              "value": "Carbon fiber / Nylon fiber / Aluminum alloy"
+            },
+            {
+              "feature": "Wheelbase",
+              "value": "1600mm"
+            },
+            {
+              "feature": "Pipe diameter",
+              "value": "37 x 40mm"
+            },
+            {
+              "feature": "Weight (Frame)",
+              "value": "7.5kg"
+            },
+            {
+              "feature": "Volume",
+              "value": "16L"
+            },
+            {
+              "feature": "FC system",
+              "value": "K++ / V7-AG / Boying"
+            },
+            {
+              "feature": "Dynamic system",
+              "value": "T8 / X8"
+            },
+            {
+              "feature": "Propeller",
+              "value": "30''"
+            },
+            {
+              "feature": "Spraying system",
+              "value": "5L or 8L Pump"
+            },
+            {
+              "feature": "Radar installation",
+              "value": "Front / Rear / Altitude"
+            },
+            {
+              "feature": "Lithium battery",
+              "value": "14S 18000mAh"
+            },
+            {
+              "feature": "Overall weight",
+              "value": "38kg"
+            }
+          ]
+        },
+        {
+          "id": "av-v440",
+          "title": "Agricultural Drone AVD-V440",
+          "image": "/product/avd-v440.webp",
+          "layout": "table",
+          "tableData": [
+            
+            {
+              "feature": "Unfolded Size",
+              "value": "1710*1453*700mm"
+            },
+            {
+              "feature": "Diagonal Axis Distance",
+              "value": "2000mm"
+            },
+            {
+              "feature": "Product Weight",
+              "value": "26.8KG (excluding battery)"
+            },
+            {
+              "feature": "Maximum Takeoff Weight",
+              "value": "68KG"
+            },
+            {
+              "feature": "Spraying Flow Rate",
+              "value": "12L/min"
+            },
+            {
+              "feature": "Spraying Method",
+              "value": "Centrifugal spraying"
+            },
+            {
+              "feature": "Working Temperature",
+              "value": "-10° to 40°"
+            },
+            {
+              "feature": "Battery Capacity",
+              "value": "14S 30000mAh"
+            },
+            {
+              "feature": "Load Time",
+              "value": "8min"
+            },
+            {
+              "feature": "Charging Time",
+              "value": "25min"
+            },
+            {
+              "feature": "Storage Mode",
+              "value": "Fold horizontally with frame"
+            },
+            {
+              "feature": "Folded Size",
+              "value": "603*1120*700mm"
+            },
+            {
+              "feature": "Medicine Box Capacity",
+              "value": "40L"
+            },
+            {
+              "feature": "Flight Speed",
+              "value": "5-10m/s"
+            },
+            {
+              "feature": "Effective Spraying Width",
+              "value": "6-10m"
+            },
+            {
+              "feature": "Effective Control Distance",
+              "value": "3km (no obstruction interference)"
+            },
+            {
+              "feature": "Battery Weight",
+              "value": "11.2KG"
+            },
+            {
+              "feature": "Body Material",
+              "value": "Carbon fiber/aluminum alloy/engineering plastic"
+            },
+            {
+              "feature": "Wind Resistance Level",
+              "value": "Level 6"
+            }
+          ]
+        }
+      ]
+    },
+      "interceptor-drone": {
+      "title": "Interceptor Drone " ,
+      "main_title": "Active Defense & Countermeasures",
+      "component_list": [
+          
+        {
+          "id": "lar-a2a5",
+          "title": "Interceptor Drone LAR-A2A5",
+          "image": "/product/drones.webp",
+          "layout": "table",
+          "tableData": [
+            {
+              "feature": "Model",
+              "value": "5-inch high-speed rocket motor"
+            },
+            {
+              "feature": "Onboard Storage",
+              "value": "16MB"
+            },
+            {
+              "feature": "Type",
+              "value": "Fluid rocket shape"
+            },
+            {
+              "feature": "Image transmission on/off",
+              "value": "Support (paddle control)"
+            },
+            {
+              "feature": "Wheel base",
+              "value": "230mm"
+            },
+            {
+              "feature": "Image Transfer",
+              "value": "5.8G (standard)"
+            },
+            {
+              "feature": "Weight (Bare machine)",
+              "value": "450g"
+            },
+            {
+              "feature": "Max picture power",
+              "value": "3W (Adjustable 25-3000mW)"
+            },
+            {
+              "feature": "Maximum flying speed",
+              "value": "380km/h"
+            },
+            {
+              "feature": "Frequency range",
+              "value": "5500-6000 MHz"
+            },
+            {
+              "feature": "Rated load",
+              "value": "200G"
+            },
+            {
+              "feature": "Sensor",
+              "value": "1/3' CMOS"
+            },
+            {
+              "feature": "Maximum load",
+              "value": "300G"
+            },
+            {
+              "feature": "Video Resolution",
+              "value": "1500 TVL"
+            },
+            {
+              "feature": "Maximum take-off weight",
+              "value": "900G"
+            },
+            {
+              "feature": "Nominal load endurance",
+              "value": "About 5 minutes"
+            }
+          ]
+        },
+         {
+          "id": "lar-a2a7",
+          "title": " Interceptor Drone",
+          "image": "/product/drone2.webp",
+          "layout": "table",
+      "tableData": [
+    { "feature": "Model", "value": "7-inch high-speed rocket engine" },
+    { "feature": "Onboard Storage", "value": "16MB" },
+    { "feature": "Type", "value": "Fluid rocket shape" },
+    { "feature": "Image transmission on/off", "value": "Support (paddle control)" },
+    { "feature": "Wheel base", "value": "300mm" },
+    { "feature": "Image Transfer", "value": "5.8G (standard)" },
+    { "feature": "Weight (Bare machine)", "value": "650g" },
+    { "feature": "Max picture power", "value": "3W (Adjustable 25-3000mW)" },
+    { "feature": "Maximum flying speed", "value": "320km/h" },
+    { "feature": "Frequency range", "value": "5500-6000 MHz" },
+    { "feature": "Rated load", "value": "300G" },
+    { "feature": "Sensor", "value": "1/3' CMOS" },
+    { "feature": "Maximum load", "value": "450G" },
+    { "feature": "Video Resolution", "value": "1500 TVL" },
+    { "feature": "Maximum take-off weight", "value": "1.3KG" },
+    { "feature": "Nominal load endurance", "value": "About 5 minutes" }
+  ]
+        }
+      ]
+    },
+        "drone-docking-station": {
+      "title": "Drone Docking Station",
+      "main_title": "Drone Docking Station",
+      "component_list": [
+        {
+          "id": "drone-docking-station",
+          "title": "Drone Docking Station",
+          "image": "/product/docker.webp",
+         "details": "Compared to the long charging time, which is the limitation of drones, there are short operating times and limitations in human operation and data collection. To overcome the limitations of the drone industry, docking stations applying unmanned technology provide unmanned operation system convergence services such as automatic take-off and landing, wireless charging, storage, remote control system, data transmission and reception, and self-power generation through solar power generation. "
+},
+  {
+          "id": "wireless-charging-station",
+          "title": "Wireless Charging technology",
+          "image": "/product/1.png",
+         "details": "Wireless Charging technology"
+},
+  {
+          "id": "automatic-containment-technology",
+          "title": "Automatic Containment Technology",
+          "image": "/product/2.png",
+         "details": "Automatic Containment Technology"
+},
+  {
+          "id": "precision-landing-guidance-technology",
+          "title": "Precision Landing Guidance Technology",
+          "image": "/product/3.png",
+         "details": "Precision Landing Guidance Technology"
+},
+  {
+          "id": "solar-self-power-technology",
+          "title": "Solar self-Power Technology",
+          "image": "/product/4.png",
+         "details": "Solar self-Power Technology "
+},
+  {
+          "id": "remote-central-control-system",
+          "title": "Remote Central Control System",
+          "image": "/product/5.png",
+         "details": "Remote Central Control System "
+}
+      ]
+    }
+  },
+  "NotFound": {
+    "title": "404 - Page Not Found",
+    "message": "The product or page you are looking for does not exist.",
+    "button": "Return Home"
+  },
+ "SoftwareSection": {
+    "title": "Custom Anti-Drone Integrated Command and Control SW Development",
+    "description": "Integrated Transportation & Communication Simulator Development. Communication System SW Development. Measuring Equipment Integration Design SW Development. Customer-Tailored System SW Development."
+},
+  "VideoSection": {
+    "btn_label": "Promotional Video",
+    "attachment_label": "Attachment",
+    "close_btn": "[ Close Player ]",
+    "btn1": "Satellite Signal Spoofer - Area Defense",
+    "btn2": "Satellite Signal Spoofer - Precision Guided Defense",
+    "close": "[ Close Player ]",
+    "videos": [
+      { "id": 1, "title": "Satellite Signal Spoofer - Area Defense", "attachment": "2" },
+      { "id": 2, "title": "Satellite Signal Spoofer - Precision Guided Defense", "attachment": "3" }
+    ]
+  },
+
+ "Contact": {
+    "badge": "Customer Support Hub",
+    "line_label": "Direct Operations Line",
+    "phone": "+82 10.3737.5216",
+    "hours": "09:00 AM - 18:00 PM",
+    "status": "Live Support Active",
+    "form_title": "Send Message",
+    "email_label": "Your Email Address",
+    "inquiry_label": "Technical Inquiry",
+    "submit_btn": "SEND MESSAGE",
+    "placeholder_email": "engineer@company.com",
+    "placeholder_msg": "Describe your requirements...",
+    "titles": "A Mirae Tech Vision representative will respond via the email or mobile number provided. Please make sure to include your contact details."
+  }
+}

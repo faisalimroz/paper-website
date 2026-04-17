@@ -1,0 +1,553 @@
+{
+  "Navbar": {
+    "logo": "㈜미래테크비전",
+    "ceoIntroduction": "대표이사 소개",
+    "overview": "사업 사업소개",
+    "products": "제품",
+    "services": "서비스",
+    "investorRelations": "투자자 정보",
+    "connectWithUs": "문의하기",
+    "support": "문의사항",
+    "login": "로그인"
+  },
+  "Index": {
+    "ceo": {
+      "badge": "리더십",
+      "title": "대표이사 소개",
+      "description": "최첨단 안티드론 솔루션 및 RF 기술 혁신을 주도합니다.",
+      "milestones": [
+        "LG 이노텍 연구소: 휴대폰용 전력증폭기 개발, LG전자 단말기 적용 부품 국산화 개발",
+        "Agilent Technologies: 계측기 기술지원, CDMA, GSM, WCDMA 단말기 및 중계기 설계/측정 기술 지원 및 ADS SW(RF 회로설계 및 통신 시스템 설계 SW) 컨설팅",
+        "(주)비스타컴: 안티드론 사업부 총괄 본부장",
+        "(주)아고스: 안티드론 사업부 공공기관 및 방산 분야 영업 상무이사",
+        "한국전력 신안성변전소 안티드론시스템 구축사업 총괄",
+        "한국석유공사 용인지사, 여수지사 안티드론시스템(위성신호스푸퍼) 구축 사업 총괄",
+        "00부대 안티드론시스템(위성신호스푸퍼) 구축 사업 총괄",
+        "AA부대 기동형 대드론시스템 구축 사업 총괄"
+      ]
+    },
+    "inquiry": {
+      "badge": "지원 센터",
+      "title": "기술 문의",
+      "description": "CUxS 통합 및 방어 프로토콜에 관한 자주 묻는 질문입니다.",
+      "questions": {
+        "q1": "시스템의 최대 탐지 거리는 얼마입니까?",
+        "a1": "통합 레이더 및 RF 스캐닝 제품군은 0.01m²의 RCS를 가진 표준 상업용 드론을 최대 3km 거리에서 탐지할 수 있습니다.",
+        "q2": "위성신호 스푸핑이 민간 항공에 간섭을 일으키나요?",
+        "a2": "아니요. 당사의 지향성 스푸핑 기술은 위협 요체의 좌표에 정밀하게 타겟팅되어 승인된 항공기로의 신호 누출을 최소화합니다.",
+        "q3": "극한의 기상 조건에서도 시스템 작동이 가능한가요?",
+        "a3": "네, 하드웨어는 IP67 등급을 받았으며 -20°C에서 +60°C 사이의 온도에서 작동 안정성 테스트를 완료했습니다.",
+        "q4": "무선 침묵(Dark Drones) 드론은 어떻게 처리하나요?",
+        "a4": "RF 방출이 없는 드론은 EO/IR 열화상 카메라와 AI 기반 광학 추적 소프트웨어를 사용하여 식별됩니다."
+      }
+    },
+    "stats": {
+      "trustedBy": "전 세계 34개 이상의 정부 기관에서 신뢰합니다.",
+      "unitsSold": "판매된 단위",
+      "inCountryPartners": "국내 파트너",
+      "yearsOfInnovation": "혁신의 세월",
+      "heroMessage": "가장 복잡한 환경에서도 직관적인 제어가 가능합니다."
+    },
+    "overview": {
+      "badge": "사업 소개",
+      "title": "통합 안티드론 방어 시스템",
+      "description": "미래테크비전은 급속도로 진화하는 고도화된 드론 및 무인기 위협에 대응하기 위한 정교하고 전문적인 방어 시스템을 제공합니다.",
+      "tech": {
+        "platform": "미래테크비전 안티드론 플랫폼은 RF 스캐너, 레이더, EO/IR 카메라, 위성신호 스푸퍼, RF 재머 및 통신 스푸핑 기술을 통합하는 단일 지휘 통제(SW) 시스템을 제공합니다.",
+        "stage1": {
+          "title": "드론 탐지",
+          "details": "Rader 5Km이상(RCS 0.03m2)탐지 RF Scanner 400M~6GHz 상용 드론 탐지."
+        },
+        "stage2": {
+          "title": "드론 추적 및 모니터링",
+          "details": "Ku band 3D 7Km 추적 Radar Tracking and amonitoring with RF scanner"
+        },
+        "stage3": {
+          "title": "드론 식별",
+          "details": "EOIR 상용/비상용 드론 영상 2Km 식별 및 추적 RF scanner 상용 드론 기종 식별"
+        },
+        "stage4": {
+          "title": "드론 무력화",
+          "details": "Satellite Signal Spoofer(상용/비상용/항재밍) RF Jammer(상용 드론 무력화) Communication Signal Spoofer(상용 드론 무력화) Hardkill(요격 드론)"
+        }
+      }
+    },
+    "heroVideo": {
+      "title": "안티 드론의 단순화",
+      "content": "교육이 쉽고, 사용이 간편하며, 신속한 배치가 가능한 다목적 CUxS 솔루션입니다."
+    }
+  },
+  "Auth": {
+    "login": "로그인"
+  },
+  "Products": {
+    "header": "안티드론 솔루션",
+    "header2": "무인기 솔루션",
+    "description": "최첨단 안티드론 제품의 종합적인 라인업을 살펴보세요. 진화하는 공중 위협으로부터 강력한 방어를 제공하도록 설계되었습니다.",
+    "detection-identification-equipment": {
+      "title": "탐지 및 식별 장비",
+      "main_title": "다계층 감시 에코시스템",
+      "component_list": [
+        {
+          "id": "eoir",
+          "title": "EO/IR 카메라",
+          "image": "/product/eo.webp",
+          "details": "비행체 Depp Learning 식별알고리즘. 자동 영상 추적. 경로 예측 기능. 드론 영상 식별과 추적을 위한 EO/IR 카메라 – 영상 식별거리 2Km.  자동 영상 추적 AI 알고라즘"
+        },
+        {
+          "id": "sdr",
+          "title": "상용 드론 탐지장비- RF스캐너",
+          "image": "/product/sdr.webp",
+          "details": "400GHz – 6GHz Frequency Band 상용드론 탐지. 신규 주파수 추가 시 Software 확장 통해 신규드론 탐지. 연간 최소 1차례 Library Updates (예, DJI Ocusync 4 암호화 드론 탐지, Autel Skylink 3.0 탐지). 자체 개발 Software로 암호화된 신규 Drone Protocol 해독(DJI 및 타사 암호화된 Drones 처리). 탐지거리 4Km "
+        },
+        {
+          "id": "sdr",
+          "title": "상용 드론 탐지장비- RF스캐너",
+          "image": "/product/sdr2.webp",
+          "details": "400GHz – 6GHz Frequency Band 상용드론 탐지. 신규 주파수 추가 시 Software 확장 통해 신규드론 탐지. 연간 최소 1차례 Library Updates (예, DJI Ocusync 4 암호화 드론 탐지, Autel Skylink 3.0 탐지). 자체 개발 Software로 암호화된 신규 Drone Protocol 해독(DJI 및 타사 암호화된 Drones 처리). 탐지거리 4Km"
+        },
+        {
+          "id": "radar",
+          "title": "레이더",
+          "image": "/product/radar.webp",
+          "details": "소형 드론(RCS: 0.03㎡)에 대한 360° 전방위 탐지 가능. 탐지/식별 거리: 5km, 추적 거리: 7km. 펄스 도플러 회전식 X-밴드 탐지 레이더 및 Ku-밴드 추적 레이더 탑재. 탐지 대상 자동 식별: 드론 / 새 / 차량 / 선박."
+        }
+      ]
+    },
+    "neutralization-equipment": {
+      "title": "무력화 시스템",
+      "main_title": "능동 방어 및 대응 체계",
+      "component_list": [
+        {
+          "id": "satelite-signal-spoofer",
+          "title": "(위성신호스푸퍼)",
+          "image": "/product/signal.webp",
+          "details": "드론 무력화장비 - 위성신호 스푸퍼. 무인기(UAV)/드론 자율비행 및 수동비행(위성항법) 칩입대비 중요시설 방어용 무력화 장비. 기만 위성 종류: GNSS L1/L2(GPS, Glonass, Beidou, Galileo), GNSS L5 확장 가능. 방사출력: 5W/GNSS L1/L2 기준, 저출력 방어 시스템(무력화 기술: 위성신호 Spoofing 기술). 3,000m 이상의 보호 반경. 360도 전방위, 24시간 다수 드론 동시 침입 방어. 항재밍 드론 방어(실시간 드론 칩입 방어 및 추방)  "
+        },
+        {
+          "id": "rf-jammer",
+          "image": "/product/rf.png",
+          "layout": "table",
+          "title": "드론 무력화장비 - RF재머 ",
+          "tableData": [
+            {
+              "feature": "주파수 대역 (Frequency Band)",
+              "value": "433MHz, 900MHz, GNSS L1/L2, 2.4GHz, 5.8GHz (밴드 추가 가능 / Additional bands available)"
+            },
+            {
+              "feature": "전파 차단 거리 (Blocking Distance)",
+              "value": "3km (확장 가능 / Expandable)"
+            },
+            {
+              "feature": "방사 출력 (Radiation Power)",
+              "value": "300W (전대역 기준) 이하 (Under 300W based on full band)"
+            },
+            {
+              "feature": "대역별 재밍 주파수 범위 ",
+              "value": "1MHz ~ 200MHz (가변형 / Variable)"
+            },
+            {
+              "feature": "안테나 지향성 (Antenna Directivity)",
+              "value": "지향성(지향각 60도) / Directional (60-degree beamwidth)"
+            }
+          ]
+        }
+      ]
+    },
+    "spoofing-equipment": {
+      "title": "스푸핑 장비",
+      "main_title": "최첨단 사이버 테이크오버 및 정밀 방향 유도",
+      "component_list": [
+        {
+          "id": "precision-gnss-spoofer",
+          "title": "정밀유도 위성신호 스푸핑시스템",
+          "image": "/product/eleven.webp",
+          "details": "상용/비상용 드론 침입 드론 정밀 방향 유도 방어. 항재밍 드론 무력화. 정밀 유도반경: 150m ~ 3Km. 2차 피해가 없는 드론 방어시스템. 레이더 연동 드론 정밀유도 시스템 "
+        },
+        {
+          "id": "eoir",
+          "title": "통신 스푸핑시스템 ",
+          "image": "/product/communication.png",
+          "details": "상용 드론 라디오 주파수 통한 탐지, 추적, 식별 및 무력화. 방어지역내 불량드론 접근 차단 (Fending Off). 사전 설정된 안전경로 경유 지정 장소 강제 유도 착륙. RF스캐너 연동 드론 방어 시스템. 강제 유도 착륙 거리 2Km"
+        }
+      ]
+    },
+    "agricultural-drone": {
+      "title": "농업용 드론",
+      "main_title": "Active Defense & Countermeasures",
+      "component_list": [
+        {
+          "id": "avd-e616",
+          "title": "(참조4) 제품/드론 - 농업용 드론",
+          "image": "/product/e616.webp",
+          "layout": "table",
+          "tableData": [
+            {
+              "feature": "펼침 크기",
+              "value": "1690 x 1470 x 600mm"
+            },
+            {
+              "feature": "접이식 크기",
+              "value": "850 x 960 x 600mm"
+            },
+            {
+              "feature": "소재 구성",
+              "value": "탄소 섬유 / 나일론 섬유 / 알루미늄 합금"
+            },
+            {
+              "feature": "휠베이스",
+              "value": "1600mm"
+            },
+            {
+              "feature": "파이프 직경",
+              "value": "37 x 40mm"
+            },
+            {
+              "feature": "중량 (프레임)",
+              "value": "7.5kg"
+            },
+            {
+              "feature": "용량",
+              "value": "16L"
+            },
+            {
+              "feature": "FC 시스템",
+              "value": "K++ / V7-AG / Boying"
+            },
+            {
+              "feature": "동력 시스템",
+              "value": "T8 / X8"
+            },
+            {
+              "feature": "프로펠러",
+              "value": "30인치"
+            },
+            {
+              "feature": "방제 시스템",
+              "value": "5L 또는 8L 펌프"
+            },
+            {
+              "feature": "레이더 설치",
+              "value": "전방 / 후방 / 고도"
+            },
+            {
+              "feature": "리튬 배터리",
+              "value": "14S 18000mAh"
+            },
+            {
+              "feature": "총 중량",
+              "value": "38kg"
+            }
+          ]
+        },
+        {
+          "id": "avd-v440",
+          "title": "(참조4) 제품/드론 - 농업용 드론 AVD-V440",
+          "image": "/product/avd-v440.webp",
+          "layout": "table",
+          "tableData": [
+            {
+              "feature": "모델",
+              "value": "농업용 드론 AVD-V440"
+            },
+            {
+              "feature": "온보드 저장 용량",
+              "value": "16MB"
+            },
+            {
+              "feature": "유형",
+              "value": "유체 로켓 형태"
+            },
+            {
+              "feature": "영상 송신 온/오프 제어",
+              "value": "지원 (패들 제어)"
+            },
+            {
+              "feature": "축간거리 (Wheel base)",
+              "value": "230mm"
+            },
+            {
+              "feature": "영상 전송",
+              "value": "5.8G (표준)"
+            },
+            {
+              "feature": "기체 중량 (Bare machine)",
+              "value": "450g"
+            },
+            {
+              "feature": "최대 영상 송신 출력",
+              "value": "3W (조절 가능: 25-3000mW)"
+            },
+            {
+              "feature": "최대 비행 속도",
+              "value": "380km/h"
+            },
+            {
+              "feature": "주파수 범위",
+              "value": "5500-6000 MHz"
+            },
+            {
+              "feature": "정격 부하",
+              "value": "200G"
+            },
+            {
+              "feature": "센서",
+              "value": "1/3' CMOS"
+            },
+            {
+              "feature": "최대 부하",
+              "value": "300G"
+            },
+            {
+              "feature": "영상 해상도",
+              "value": "1500 TVL"
+            },
+            {
+              "feature": "최대 이륙 중량",
+              "value": "900G"
+            },
+            {
+              "feature": "공칭 부하 비행 시간",
+              "value": "약 5분"
+            }
+          ]
+        }
+      ]
+    },
+    "interceptor-drone": {
+      "title": "요격 드론 ",
+      "main_title": "Active Defense & Countermeasures",
+      "component_list": [
+        {
+          "id": "lar-a2a5",
+          "title": "요격 드론 LAR-A2A5",
+          "image": "/product/drones.webp",
+          "layout": "table",
+          "tableData": [
+            {
+              "feature": "모델",
+              "value": "5인치 고속 로켓 모터"
+            },
+            {
+              "feature": "온보드 저장 용량",
+              "value": "16MB"
+            },
+            {
+              "feature": "유형",
+              "value": "유체 로켓 형태"
+            },
+            {
+              "feature": "영상 송신 온/오프 제어",
+              "value": "지원 (패들 제어)"
+            },
+            {
+              "feature": "축간거리 (Wheel base)",
+              "value": "230mm"
+            },
+            {
+              "feature": "영상 전송",
+              "value": "5.8G (표준)"
+            },
+            {
+              "feature": "기체 중량 (Bare machine)",
+              "value": "450g"
+            },
+            {
+              "feature": "최대 영상 송신 출력",
+              "value": "3W (조절 가능: 25-3000mW)"
+            },
+            {
+              "feature": "최대 비행 속도",
+              "value": "380km/h"
+            },
+            {
+              "feature": "주파수 범위",
+              "value": "5500-6000 MHz"
+            },
+            {
+              "feature": "정격 부하",
+              "value": "200G"
+            },
+            {
+              "feature": "센서",
+              "value": "1/3' CMOS"
+            },
+            {
+              "feature": "최대 부하",
+              "value": "300G"
+            },
+            {
+              "feature": "영상 해상도",
+              "value": "1500 TVL"
+            },
+            {
+              "feature": "최대 이륙 중량",
+              "value": "900G"
+            },
+            {
+              "feature": "공칭 부하 비행 시간",
+              "value": "약 5분"
+            }
+          ]
+        },
+        {
+          "id": "lar-a2a7",
+          "title": "요격 드론 LAR-A2A7",
+          "image": "/product/drone2.webp",
+          "layout": "table",
+          "tableData": [
+            {
+              "feature": "모델 (Model)",
+              "value": "7인치 고속 로켓 엔진"
+            },
+            {
+              "feature": "내장 메모리 (Onboard Storage)",
+              "value": "16MB"
+            },
+            {
+              "feature": "유형 (Type)",
+              "value": "유선형 로켓 형태"
+            },
+            {
+              "feature": "영상 전송 온/오프 ",
+              "value": "지원 (패들 제어)"
+            },
+            {
+              "feature": "휠베이스",
+              "value": "300mm"
+            },
+            {
+              "feature": "영상 전송 방식 ",
+              "value": "5.8G (표준)"
+            },
+            {
+              "feature": "기체 중량",
+              "value": "650g"
+            },
+            {
+              "feature": "최대 영상 출력",
+              "value": "3W (25-3000mW 조절 가능)"
+            },
+            {
+              "feature": "최대 비행 속도",
+              "value": "320km/h"
+            },
+            {
+              "feature": "주파수 범위",
+              "value": "5500-6000 MHz"
+            },
+            {
+              "feature": "정격 부하",
+              "value": "300g"
+            },
+            {
+              "feature": "센서",
+              "value": "1/3' CMOS"
+            },
+            {
+              "feature": "최대 부하",
+              "value": "450g"
+            },
+            {
+              "feature": "비디오 해상도",
+              "value": "1500 TVL"
+            },
+            {
+              "feature": "최대 이륙 중량",
+              "value": "1.3kg"
+            },
+            {
+              "feature": "정격 부하 시 비행 시간 ",
+              "value": "약 5분"
+            }
+          ]
+        }
+      ]
+    },
+     "drone-docking-station": {
+      "title": "드론 도킹 스테이션",
+      "main_title": "드론 도킹 스테이션",
+      "component_list": [
+        {
+          "id": "drone-docking-station",
+          "title": "드론 도킹 스테이션",
+          "image": "/product/docker.webp",
+         "details": "드론의 한계인 긴 충전 시간 대비 짧은 운용 시간과 인력 운용 및 데이터 수집의 제약을 극복하기 위해 무인화 기술을 적용한 도킹 스테이션이 활용됩니다. 드론 산업의 한계를 극복하기 위해 무인 기술을 적용한 도킹 스테이션은 자동 이착륙, 무선 충전, 보관, 원격 제어, 데이터 송수신 및 태양광 자가 발전 등 무인 운용 시스템 융합 서비스를 제공합니다"
+},
+{
+          "id": "wireless-charging-station",
+          "title": "무선 충전 기술",
+          "image": "/product/1.png",
+         "details": "무선 충전 기술"
+},
+  {
+          "id": "automatic-containment-technology",
+          "title": "자동 방호 기술",
+          "image": "/product/2.png",
+         "details": "자동 방호 기술"
+},
+  {
+          "id": "precision-landing-guidance-technology",
+          "title": "정밀 착륙 유도 기술",
+          "image": "/product/3.png",
+         "details": "정밀 착륙 유도 기술"
+},
+  {
+          "id": "solar-self-power-technology",
+          "title": "태양광 자가 발전 기술",
+          "image": "/product/4.png",
+         "details": "태양광 자가 발전 기술 "
+},
+  {
+          "id": "remote-central-control-system",
+          "title": "원격 중앙 제어 시스템",
+          "image": "/product/5.png",
+         "details": "원격 중앙 제어 시스템 "
+}
+      ]
+    }
+  },
+  "NotFound": {
+    "title": "404 - 페이지를 찾을 수 없습니다",
+    "message": "요청하신 제품이나 페이지가 존재하지 않습니다.",
+    "button": "홈으로 돌아가기"
+  },
+  "VideoSection": {
+    "btn_label": "홍보 동영상",
+    "attachment_label": "첨부",
+    "close_btn": "[ 플레이어 닫기 ]",
+    "btn1": "위성신호스푸퍼 - 지역방어",
+    "btn2": "위성신호스푸퍼 - 정밀유도 방어",
+    "close": "[ 플레이어 닫기 ]",
+    "videos": [
+      {
+        "id": 1,
+        "title": "전략 운영 영상 01",
+        "attachment": "2"
+      },
+      {
+        "id": 2,
+        "title": "전술 배치 영상 02",
+        "attachment": "3"
+      }
+    ]
+  },
+  "SoftwareSection": {
+    "title": "custom 안티드론 통합관제 SW 개발",
+    "description": " 교통통신 통합 simulator 개발.  통신 시스템 SW 개발. 계측장비 연동 설계 SW 개발.  고객 맞춤형 시스템 SW 개발"
+  },
+  "Contact": {
+    "badge": "고객 지원 센터",
+    "line_label": "직통 운영 라인",
+    "phone": "+82 10.3737.5216",
+    "hours": "09:00 - 18:00",
+    "status": "현재 실시간 지원 가능",
+    "form_title": "메시지 보내기",
+    "email_label": "이메일 주소",
+    "inquiry_label": "문의사항(문의 사항은 담당자 이메일로 전송됩니다.)",
+    "submit_btn": "메시지 전송",
+    "placeholder_email": "engineer@company.com",
+    "placeholder_msg": "문의 내용을 상세히 입력해 주세요...",
+    "titles":"문의사항에 대한 피드백은 미래테크비전 담당자가 문의 하시는분 연락처(이메일, 휴대전화)로 회신합니다. 문의사항 기재 시 연락처(이메일, 휴대전화) 기재 부탁드립니다."
+  }
+}
