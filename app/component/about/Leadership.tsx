@@ -6,9 +6,14 @@ const Leadership = async ({ params }: { params: Promise<{ locale: string }> }) =
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Leadership' });
 
-  // Access the array of members from translations
-  const members = t.raw('members');
 
+  const members = t.raw('members');
+const TEAM_IMAGES = [
+  '/team/sidechicks.png',
+  '/team/sidechicks.png',
+  '/team/sidechicks.png',
+  '/team/sidechicks.png',
+];
   return (
   <div className='bg-[#F8F9FF]'>
       <section className="w-full max-w-7xl mx-auto px-4 py-16 md:py-24 ">
@@ -17,7 +22,7 @@ const Leadership = async ({ params }: { params: Promise<{ locale: string }> }) =
         <h2 className="text-4xl md:text-5xl font-bold text-blacky tracking-tight">
           {t('title')}
         </h2>
-        <span className="text-xs md:text-sm font-bold text-darkblue tracking-[0.2em] mt-4 md:mt-0 uppercase">
+        <span className="text-xs md:text-sm font-bold text-blacky tracking-[0.1em] mt-4 md:mt-0 uppercase">
           {t('subtitle')}
         </span>
       </div>
@@ -29,8 +34,8 @@ const Leadership = async ({ params }: { params: Promise<{ locale: string }> }) =
             {/* Image Container with precise aspect ratio */}
             <div className="relative aspect-[4/5] mb-6 overflow-hidden bg-gray-100">
               <Image
-                // src={`/team/member-${index + 1}.jpg`} // Ensure images exist in public/team/
-                src='/team/sidechicks.png'
+                src={TEAM_IMAGES[index] }
+               
                 alt={member.name}
                 fill
                 className="object-cover grayscale transition-transform duration-500 group-hover:scale-105 group-hover:grayscale-0"

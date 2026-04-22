@@ -19,7 +19,28 @@
       "description": "To safeguard critical infrastructure and public spaces with innovative, reliable, and effective anti-drone technologies."
     }
   },
-  
+  "Evolution": {
+    "title": "A Century of Technical Evolution",
+    "quote": "Precision is the only metric that matters at scale.",
+    "timeline": [
+      {
+        "year": "1922",
+        "label": "Founding Roots",
+        "description": "Started as a precision pulp mill in the Pacific Northwest, focusing on technical grades."
+      },
+      {
+        "year": "1985",
+        "label": "Automation Pivot",
+        "description": "Integrated full-scale robotic sorting and digital density monitoring across all lines."
+      },
+      {
+        "year": "2024",
+        "label": "Modern Monolith",
+        "description": "Global leader in specialized industrial liners and high-caliper tech sheets."
+      }
+    ]
+  }
+,
   "Leadership": {
     "title": "Strategic Leadership",
     "subtitle": "BOARD OF DIRECTORS / 2024",
