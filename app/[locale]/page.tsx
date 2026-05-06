@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import HeroVideo from '../component/video';
 import Hero from '../component/about/Hero';
+import MaintenancePage from '../component/about/MaintainancePage';
 const locales = ['en', 'ko'];
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -20,7 +21,8 @@ export default async function HomePage(props: {
   ]
   return (
     <main className="flex flex-col items-center bg-white min-h-[calc(100vh-80px)] w-full">
-      {sections.map((section) => (
+      <MaintenancePage></MaintenancePage>
+      {/* {sections.map((section) => (
         <section
           key={section.id}
           id={section.id}
@@ -28,7 +30,7 @@ export default async function HomePage(props: {
         >
           {section.component}
         </section>
-      ))}
+      ))} */}
     </main>
   );
 }

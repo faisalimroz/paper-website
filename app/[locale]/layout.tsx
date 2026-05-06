@@ -61,7 +61,7 @@ export default async function LocaleLayout({
       >
         {/* 4. Provide messages to all client components (like your Header) */}
         <NextIntlClientProvider messages={messages} locale={locale}>
-          <Header />
+          {/* <Header /> */}
           <main className="flex-1 flex flex-col">
             {children}
           </main>
